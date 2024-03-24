@@ -5,17 +5,24 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html"
   },
-  "author": "Jonas Schedtmann",
+  "author": "Hala Hassan",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.0.0-beta.1",
-    "sass": "^1.26.10"
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.72.0"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
+    "core-js": "^3.36.1",
     "fractional": "^1.0.0",
-    "regenerator-runtime": "^0.13.7"
-  }
+    "img": "^3.0.3",
+    "regenerator-runtime": "^0.13.11"
+  },
+  "main": "index.js",
+  "browserslist": [
+    "last 1 Chrome versions"
+  ]
 }
